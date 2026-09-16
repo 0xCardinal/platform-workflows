@@ -1,0 +1,5 @@
+{
+  "lab_id": "github-security-training-lab1",
+  "repository_role": "shared-automation",
+  "managed_by": "lab1/setup.sh"
+}
