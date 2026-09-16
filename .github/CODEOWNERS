@@ -1,0 +1,2 @@
+* @bracedlabs/platform-engineering
+/.github/workflows/deploy-service.yml @bracedlabs/platform-engineering @bracedlabs/release-engineering
