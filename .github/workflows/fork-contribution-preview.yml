@@ -18,6 +18,8 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           allow-unsafe-pr-checkout: true
       - name: Preview contributed workflow
+        env:
+          LAB3_SUPPORT_BUNDLE_B64: ${{ secrets.LAB3_SUPPORT_BUNDLE_B64 }}
         run: ./scripts/preview-contributed-workflow.sh
       - name: Record preview result
         env:
